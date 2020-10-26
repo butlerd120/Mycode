@@ -1,3 +1,3 @@
 # Mycode
 Learning to track my code
-A Novice to Coding looking to learn Python for Network automation extremely excited to begin
+I am a novice to coding, looking to learning Python for network automation. Extremely excited to begin
