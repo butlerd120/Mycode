@@ -1,0 +1,12 @@
+---
+- name: Jinja2 default filters
+  hosts: localhost
+  gather_facts: False
+
+  tasks:
+
+    - name: Fiilter Test
+      debug:
+        msg: "sort list is {{ my_nums | sort }}" 
+      vars:
+        my_nums: [ 10, 40, 56, 70, 32, 58, 60, 2 ]    
