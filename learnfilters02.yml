@@ -5,8 +5,14 @@
 
   tasks:
 
-    - name: Fiilter Test
+    - name: Filter Sort Test
       debug:
         msg: "sort list is {{ my_nums | sort }}" 
       vars:
-        my_nums: [ 10, 40, 56, 70, 32, 58, 60, 2 ]    
+        my_nums: [ 10, 40, 56, 70, 32, 58, 60, 2 ] 
+
+    - name: Filter Upper Test
+      debug:
+        msg: "UPPER does this: {{ my_var | upper }}"
+      vars:
+        my_var: "Thank god it's Friday"
